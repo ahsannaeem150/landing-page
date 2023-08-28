@@ -132,4 +132,39 @@ button{
     margin-top: 0;
 
 }
+.popUp{
+    background-color: #1F2937;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5% 15%;
+}
+.inInnerPop div .top{
+    font-weight: bold;
+    margin:0%;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.inInnerPop div .bottom{
+    padding-left: 30px;
+}
+.innerPop{
+    display: flex;
+    justify-content: space-between;
+}
+.inInnerPop{
+    display: flex;
+    flex-direction: column;
+}
+.innerPop .button{
+    align-self: center;
+    padding-right: 30px;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
 
